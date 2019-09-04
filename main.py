@@ -12,7 +12,7 @@ np.random.seed(10)
 #downscale factor for creating Low Resolution images for training the generator
 downscale_factor = 4
 image_shape = (224,224,3)
-train_directory = 'data/Clothes_data_google_down/'
+train_directory = 'data/Clothes_data/'
 patch_directory = 'data/clothes_patches/'
 split_idx = 500
 
