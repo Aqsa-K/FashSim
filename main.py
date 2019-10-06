@@ -67,7 +67,6 @@ display_images(patch_file_list, patch_directory, 1361,1300)
 
 #GET NEAREST NEIGHBOURS USING PATCHES
 
-from sklearn.neighbors import NearestNeighbors
 patches_nbrs = NearestNeighbors(n_neighbors=5, algorithm='ball_tree').fit(y_patches_train)
 distances, indices = patches_nbrs.kneighbors(y_patches_train)
 
