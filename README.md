@@ -29,6 +29,46 @@ Observation in the test results show that
 * When KNN is used on full images (and not on patches), the alogirthm is able to incorporate stitching style into similarity
 
 
+#### Sample Results:
+
+Input: 
+
+![picture alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test1.png)
+
+Top Similar:
+
+![picture alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test1_r1.png)
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test1_r2.png)
+
+
+Input:
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test2.png)
+
+Top Similar:
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test2_r1.png)
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test2_r2.png)
+
+Input:
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test3.png)
+
+Top Similar:
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test3_r1.png)
+
+Input:
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test5.png)
+
+Top Similar:
+
+![picture_alt](https://github.com/Aqsa-K/FashSim/blob/master/results/test5_r1.png)
+
 ### Extension:
 * Find a way to combine both style of patterns and stitching style into a single similarity
 * Ways to improve pattern style similarity
+
