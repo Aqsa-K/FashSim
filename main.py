@@ -9,7 +9,6 @@ from similarity import *
 
 
 np.random.seed(10)
-#downscale factor for creating Low Resolution images for training the generator
 downscale_factor = 4
 image_shape = (224,224,3)
 train_directory = 'data/Clothes_data/'
